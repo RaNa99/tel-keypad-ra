@@ -1,0 +1,11 @@
+<div class="form">
+    <div class="row">
+        <label>Enter Phone Number: </label>
+        <input />
+    </div>
+    <div class="row">Total number of combinations: {{phoneNumbers.length}} </div>
+    <ul *ngFor="let phoneNumber of phoneNumbers.data">
+        <li>{{phoneNumber}}</li>
+    </ul>
+    <!-- <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls> -->
+</div>
